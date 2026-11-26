@@ -1,0 +1,205 @@
+{
+  "types": [
+    {
+      "id": "open-sea",
+      "name": "Open sea"
+    },
+    {
+      "id": "shoreline",
+      "name": "Shoreline"
+    },
+    {
+      "id": "chops",
+      "name": "Chops"
+    },
+    {
+      "id": "isthmus",
+      "name": "Isthmus"
+    },
+    {
+      "id": "roughs",
+      "name": "Roughs (impassable rough water)"
+    },
+    {
+      "id": "corrupted-sea",
+      "name": "Corrupted Sea"
+    },
+    {
+      "id": "corrupted-shoreline",
+      "name": "Corrupted Shoreline"
+    },
+    {
+      "id": "corrupted-chops",
+      "name": "Corrupted Chops"
+    },
+    {
+      "id": "grasslands",
+      "name": "Grasslands"
+    },
+    {
+      "id": "burnt-grasslands",
+      "name": "Burnt Grasslands"
+    },
+    {
+      "id": "savannah",
+      "name": "Savannah"
+    },
+    {
+      "id": "fields",
+      "name": "Fields"
+    },
+    {
+      "id": "forest",
+      "name": "Forest"
+    },
+    {
+      "id": "skeletal-forest",
+      "name": "Skeletal Forest"
+    },
+    {
+      "id": "blighted",
+      "name": "Blighted"
+    },
+    {
+      "id": "jungle",
+      "name": "Jungle"
+    },
+    {
+      "id": "swamp",
+      "name": "Swamp"
+    },
+    {
+      "id": "beach",
+      "name": "Beach"
+    },
+    {
+      "id": "desert",
+      "name": "Desert"
+    },
+    {
+      "id": "dunes",
+      "name": "Dunes"
+    },
+    {
+      "id": "polar",
+      "name": "Polar"
+    },
+    {
+      "id": "hills",
+      "name": "Hills"
+    },
+    {
+      "id": "foothills",
+      "name": "Foothills"
+    },
+    {
+      "id": "valley",
+      "name": "Valley"
+    },
+    {
+      "id": "mountains",
+      "name": "Mountains"
+    },
+    {
+      "id": "low-mountains",
+      "name": "Low Mountains"
+    },
+    {
+      "id": "impassable-mountains",
+      "name": "Impassable mountains"
+    },
+    {
+      "id": "impassable",
+      "name": "Impassable"
+    },
+    {
+      "id": "road",
+      "name": "Road"
+    },
+    {
+      "id": "urban",
+      "name": "Urban"
+    },
+    {
+      "id": "ruins",
+      "name": "Ruins"
+    },
+    {
+      "id": "statue",
+      "name": "Statue"
+    },
+    {
+      "id": "freshwater",
+      "name": "Freshwater"
+    },
+    {
+      "id": "river",
+      "name": "River"
+    },
+    {
+      "id": "marker",
+      "name": "Marker (harbour or point of interest)"
+    },
+    {
+      "id": "unclassified",
+      "name": "Unclassified"
+    }
+  ],
+  "assign": {
+    "0.0..": "impassable",
+    "0.1. ": "corrupted-sea",
+    "0.2.!": "forest",
+    "0.2.#": "forest",
+    "0.2.*": "forest",
+    "0.3. ": "desert",
+    "0.3.'": "desert",
+    "0.3.M": "low-mountains",
+    "0.3.n": "hills",
+    "0.4. ": "open-sea",
+    "0.5.,": "swamp",
+    "0.7.#": "urban",
+    "0.7.%": "ruins",
+    "0.7.*": "forest",
+    "0.7.n": "hills",
+    "1.0..": "burnt-grasslands",
+    "1.3.+": "road",
+    "1.3.W": "blighted",
+    "10.0..": "savannah",
+    "10.2.*": "forest",
+    "10.2..": "valley",
+    "10.2.I": "forest",
+    "10.2.j": "jungle",
+    "10.2.|": "forest",
+    "11.0.(": "dunes",
+    "11.2.#": "fields",
+    "11.3.X": "impassable",
+    "11.6.;": "beach",
+    "15.0.?": "marker",
+    "15.1.X": "impassable",
+    "15.2.?": "marker",
+    "15.3.?": "marker",
+    "15.4.=": "isthmus",
+    "15.4.?": "marker",
+    "15.5.?": "marker",
+    "15.6.?": "marker",
+    "15.7..": "grasslands",
+    "15.7.?": "marker",
+    "15.7.@": "polar",
+    "15.7.M": "impassable-mountains",
+    "2.0.*": "forest",
+    "2.0..": "grasslands",
+    "3.0.M": "mountains",
+    "3.0.m": "foothills",
+    "3.0.n": "hills",
+    "5.0.,": "swamp",
+    "6.4.#": "chops",
+    "6.4.^": "roughs",
+    "6.4.w": "shoreline",
+    "7.0.+": "road",
+    "7.4.~": "river",
+    "8.1.Y": "skeletal-forest",
+    "8.4.S": "statue",
+    "9.0.#": "corrupted-chops",
+    "9.1.w": "corrupted-shoreline"
+  }
+}

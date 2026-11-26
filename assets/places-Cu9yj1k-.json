@@ -1,0 +1,2270 @@
+{
+  "harbours": [
+    {
+      "id": "aalen",
+      "name": "Aalen",
+      "note": "Muurn River",
+      "dock": [
+        394,
+        772
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "ageiro",
+      "name": "Ageiro",
+      "dock": [
+        154,
+        665
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "gems",
+          "cost": "tabac",
+          "lose": 2,
+          "receive": 1
+        },
+        {
+          "good": "silk",
+          "cost": "tabac",
+          "lose": 2,
+          "receive": 3
+        }
+      ]
+    },
+    {
+      "id": "altar",
+      "name": "Altar",
+      "dock": [
+        699,
+        970
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "ashtan",
+      "name": "Ashtan",
+      "dock": [
+        373,
+        518
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 34464,
+      "crew": [
+        "crewmates",
+        "shipmates",
+        "swashbucklers"
+      ],
+      "food": true,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "clockwork",
+      "name": "Clockwork",
+      "dock": [
+        885,
+        624
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 1000,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": []
+    },
+    {
+      "id": "colchis",
+      "name": "Colchis",
+      "dock": [
+        695,
+        387
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "silk",
+          "cost": "marble",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "perfume",
+          "cost": "incense",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "glass",
+          "cost": "incense",
+          "lose": 2,
+          "receive": 3
+        }
+      ]
+    },
+    {
+      "id": "eastern-shore",
+      "name": "Eastern Shore",
+      "note": "Shastaan",
+      "dock": [
+        705,
+        717
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 1000,
+      "crew": [
+        "crewmates",
+        "shipmates",
+        "swashbucklers"
+      ],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "cotton",
+          "cost": "gold",
+          "lose": 1000,
+          "receive": 1
+        },
+        {
+          "good": "hemp",
+          "cost": "furs",
+          "lose": 4,
+          "receive": 3
+        },
+        {
+          "good": "gems",
+          "cost": "perfume",
+          "lose": 2,
+          "receive": 1
+        },
+        {
+          "good": "wine",
+          "cost": "perfume",
+          "lose": 2,
+          "receive": 3
+        },
+        {
+          "good": "sandstone",
+          "cost": "gold",
+          "lose": 1000,
+          "receive": 1
+        }
+      ]
+    },
+    {
+      "id": "eirenwaar",
+      "name": "Eirenwaar",
+      "dock": [
+        238,
+        263
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": []
+    },
+    {
+      "id": "ilyrean-isles",
+      "name": "Ilyrean Isles",
+      "dock": [
+        442,
+        79
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "kadoloki",
+      "name": "Ka'doloki",
+      "note": "S. of Cyrene",
+      "dock": [
+        422,
+        829
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 0,
+      "crew": [
+        "crewmates",
+        "shipmates"
+      ],
+      "food": true,
+      "tokens": true,
+      "trades": []
+    },
+    {
+      "id": "karbaz-north",
+      "name": "Karbaz, North",
+      "note": "Smugglers",
+      "dock": [
+        65,
+        201
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "karbaz-south",
+      "name": "Karbaz, South",
+      "dock": [
+        69,
+        205
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 200,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "ceramics",
+          "cost": "honey",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "ceramics",
+          "cost": "hemp",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "marble",
+          "cost": "hemp",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "marble",
+          "cost": "granite",
+          "lose": 3,
+          "receive": 2
+        }
+      ]
+    },
+    {
+      "id": "lothos",
+      "name": "Lothos",
+      "dock": [
+        614,
+        360
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "mhaldor",
+      "name": "Claw Cove",
+      "dock": [
+        218,
+        568
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "minos",
+      "name": "Minos",
+      "dock": [
+        610,
+        298
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "honey",
+          "cost": "salt",
+          "lose": 4,
+          "receive": 3
+        },
+        {
+          "good": "wine",
+          "cost": "marble",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "wine",
+          "cost": "tea",
+          "lose": 3,
+          "receive": 2
+        }
+      ]
+    },
+    {
+      "id": "mysia",
+      "name": "Mysia",
+      "dock": [
+        802,
+        744
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 1000,
+      "crew": [
+        "crewmates",
+        "shipmates"
+      ],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "tabac",
+          "cost": "porcelain",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "tabac",
+          "cost": "silk",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "ceramics",
+          "cost": "porcelain",
+          "lose": 2,
+          "receive": 3
+        },
+        {
+          "good": "ceramics",
+          "cost": "silk",
+          "lose": 2,
+          "receive": 3
+        }
+      ]
+    },
+    {
+      "id": "new-hope",
+      "name": "New Hope",
+      "dock": [
+        623,
+        818
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "no-idea-isle",
+      "name": "No Idea Isle",
+      "note": "SW. of Altar",
+      "dock": [
+        644,
+        998
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "northreach-forest",
+      "name": "Northreach Forest",
+      "dock": [
+        410,
+        426
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "orilla",
+      "name": "Orilla",
+      "dock": [
+        615,
+        1255
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "terracotta",
+          "cost": "cotton",
+          "lose": 4,
+          "receive": 3
+        }
+      ]
+    },
+    {
+      "id": "phereklos",
+      "name": "Phereklos",
+      "dock": [
+        387,
+        370
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "polyargos",
+      "name": "Polyargos",
+      "dock": [
+        315,
+        795
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": []
+    },
+    {
+      "id": "prasset",
+      "name": "Prasset",
+      "dock": [
+        624,
+        1071
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "prin",
+      "name": "Prin",
+      "dock": [
+        669,
+        1129
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "rageteeth",
+      "name": "Rageteeth",
+      "dock": [
+        490,
+        1154
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "rheodad",
+      "name": "Rheodad",
+      "dock": [
+        243,
+        444
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "riparium",
+      "name": "Riparium",
+      "dock": [
+        717,
+        622
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "scrublands",
+      "name": "Scrublands",
+      "dock": [
+        384,
+        1197
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "sea-lion-cove",
+      "name": "Sea Lion Cove",
+      "dock": [
+        514,
+        842
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "shala-khulia",
+      "name": "Shala-Khulia",
+      "dock": [
+        340,
+        856
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 500,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "incense",
+          "cost": "glass",
+          "lose": 3,
+          "receive": 2
+        }
+      ]
+    },
+    {
+      "id": "ship-arena",
+      "name": "Ship Arena",
+      "dock": [
+        759,
+        595
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "shipwreck-isle",
+      "name": "Shipwreck Isle",
+      "dock": [
+        363,
+        1202
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "suliel-east",
+      "name": "Suliel, East",
+      "note": "Smugglers",
+      "dock": [
+        384,
+        44
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": []
+    },
+    {
+      "id": "suliel-west",
+      "name": "Suliel, West",
+      "note": "Suliel2",
+      "dock": [
+        375,
+        47
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 500,
+      "crew": [
+        "crewmates",
+        "shipmates"
+      ],
+      "food": false,
+      "tokens": false,
+      "trades": [
+        {
+          "good": "furs",
+          "cost": "wool",
+          "lose": 1,
+          "receive": 1
+        },
+        {
+          "good": "incense",
+          "cost": "kahwe",
+          "lose": 3,
+          "receive": 2
+        }
+      ]
+    },
+    {
+      "id": "tapoa",
+      "name": "Tapoa",
+      "dock": [
+        174,
+        899
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "targossas",
+      "name": "Targossas",
+      "dock": [
+        641,
+        762
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 34464,
+      "crew": [
+        "crewmates",
+        "shipmates",
+        "swashbucklers"
+      ],
+      "food": true,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "tasurke",
+      "name": "Tasur'ke",
+      "dock": [
+        685,
+        500
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 2000,
+      "crew": [
+        "crewmates",
+        "shipmates",
+        "swashbucklers"
+      ],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "wool",
+          "cost": "gold",
+          "lose": 1000,
+          "receive": 1
+        },
+        {
+          "good": "granite",
+          "cost": "sandstone",
+          "lose": 4,
+          "receive": 3
+        },
+        {
+          "good": "kahwe",
+          "cost": "sugar",
+          "lose": 3,
+          "receive": 2
+        }
+      ]
+    },
+    {
+      "id": "tenwat",
+      "name": "Tenwat",
+      "dock": [
+        556,
+        277
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "thraasi",
+      "name": "Thraasi",
+      "dock": [
+        326,
+        652
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 2000,
+      "crew": [
+        "crewmates",
+        "shipmates",
+        "swashbucklers"
+      ],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "ore",
+          "cost": "gold",
+          "lose": 1000,
+          "receive": 1
+        },
+        {
+          "good": "glass",
+          "cost": "fruits",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "armaments",
+          "cost": "spices",
+          "lose": 1,
+          "receive": 2
+        },
+        {
+          "good": "grain",
+          "cost": "gold",
+          "lose": 1000,
+          "receive": 1
+        }
+      ]
+    },
+    {
+      "id": "tuar",
+      "name": "Tuar",
+      "dock": [
+        166,
+        765
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "ulangi-north",
+      "name": "Ulangi, North",
+      "note": "Smugglers",
+      "dock": [
+        743,
+        693
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 34463,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "ulangi-south",
+      "name": "Ulangi, South",
+      "dock": [
+        753,
+        722
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "umbrin",
+      "name": "Umbrin",
+      "dock": [
+        706,
+        362
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 0,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "porcelain",
+          "cost": "ceramics",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "armaments",
+          "cost": "wine",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "kahwe",
+          "cost": "wine",
+          "lose": 2,
+          "receive": 3
+        }
+      ]
+    },
+    {
+      "id": "valho-coast",
+      "name": "Valho Coast",
+      "dock": [
+        640,
+        211
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "zanzibaar-east",
+      "name": "Zanzibaar, East",
+      "dock": [
+        820,
+        808
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 2000,
+      "crew": [],
+      "food": true,
+      "tokens": true,
+      "trades": [
+        {
+          "good": "fruits",
+          "cost": "ore",
+          "lose": 4,
+          "receive": 3
+        },
+        {
+          "good": "tea",
+          "cost": "terracotta",
+          "lose": 3,
+          "receive": 2
+        },
+        {
+          "good": "spices",
+          "cost": "armaments",
+          "lose": 2,
+          "receive": 1
+        },
+        {
+          "good": "perfume",
+          "cost": "gems",
+          "lose": 1,
+          "receive": 2
+        },
+        {
+          "good": "incense",
+          "cost": "armaments",
+          "lose": 2,
+          "receive": 3
+        }
+      ]
+    },
+    {
+      "id": "zanzibaar-west",
+      "name": "Zanzibaar, West",
+      "note": "Smugglers",
+      "dock": [
+        754,
+        829
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "zaphar-east",
+      "name": "Zaphar, East",
+      "note": "Smugglers",
+      "dock": [
+        720,
+        942
+      ],
+      "verified": true,
+      "type": "natural",
+      "fee": 0,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": []
+    },
+    {
+      "id": "zaphar-west",
+      "name": "Zaphar, West",
+      "dock": [
+        714,
+        960
+      ],
+      "verified": true,
+      "type": "man-made",
+      "fee": 100,
+      "crew": [],
+      "food": false,
+      "tokens": false,
+      "trades": [
+        {
+          "good": "salt",
+          "cost": "gold",
+          "lose": 1000,
+          "receive": 1
+        },
+        {
+          "good": "sugar",
+          "cost": "grain",
+          "lose": 4,
+          "receive": 3
+        }
+      ]
+    }
+  ],
+  "entrances": [
+    {
+      "at": [
+        387,
+        560
+      ],
+      "roomId": 20386
+    },
+    {
+      "at": [
+        559,
+        1390
+      ],
+      "roomId": 31843
+    },
+    {
+      "at": [
+        615,
+        1255
+      ],
+      "roomId": 33195
+    },
+    {
+      "at": [
+        490,
+        1154
+      ],
+      "roomId": 1226
+    },
+    {
+      "at": [
+        499,
+        1156
+      ],
+      "roomId": 38509
+    },
+    {
+      "at": [
+        384,
+        1197
+      ],
+      "roomId": 39218
+    },
+    {
+      "at": [
+        480,
+        1479
+      ],
+      "roomId": 34469
+    },
+    {
+      "at": [
+        268,
+        372
+      ],
+      "roomId": 12896
+    },
+    {
+      "at": [
+        238,
+        263
+      ],
+      "roomId": 28579
+    },
+    {
+      "at": [
+        218,
+        568
+      ],
+      "roomId": 10632
+    },
+    {
+      "at": [
+        403,
+        334
+      ],
+      "roomId": 7595
+    },
+    {
+      "at": [
+        409,
+        221
+      ],
+      "roomId": 30234
+    },
+    {
+      "at": [
+        438,
+        204
+      ],
+      "roomId": 22086
+    },
+    {
+      "at": [
+        442,
+        79
+      ],
+      "roomId": 13373
+    },
+    {
+      "at": [
+        384,
+        44
+      ],
+      "roomId": 17768
+    },
+    {
+      "at": [
+        375,
+        47
+      ],
+      "roomId": 7240
+    },
+    {
+      "at": [
+        69,
+        205
+      ],
+      "roomId": 19740
+    },
+    {
+      "at": [
+        65,
+        201
+      ],
+      "roomId": 57650
+    },
+    {
+      "at": [
+        802,
+        744
+      ],
+      "roomId": 18803
+    },
+    {
+      "at": [
+        820,
+        808
+      ],
+      "roomId": 31215
+    },
+    {
+      "at": [
+        885,
+        624
+      ],
+      "roomId": 23351
+    },
+    {
+      "at": [
+        695,
+        387
+      ],
+      "roomId": 19786
+    },
+    {
+      "at": [
+        706,
+        362
+      ],
+      "roomId": 18443
+    },
+    {
+      "at": [
+        610,
+        298
+      ],
+      "roomId": 3556
+    },
+    {
+      "at": [
+        623,
+        818
+      ],
+      "roomId": 24310
+    },
+    {
+      "at": [
+        340,
+        856
+      ],
+      "roomId": 12499
+    },
+    {
+      "at": [
+        283,
+        619
+      ],
+      "roomId": 18404
+    }
+  ],
+  "labels": [
+    {
+      "text": "Borean Ocean",
+      "kind": "ocean",
+      "at": [
+        422,
+        10
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Suliel",
+      "at": [
+        373,
+        39
+      ],
+      "size": [
+        9,
+        2
+      ]
+    },
+    {
+      "text": "Ilyrean",
+      "at": [
+        435,
+        82
+      ],
+      "size": [
+        11,
+        3
+      ]
+    },
+    {
+      "text": "Caspiite Reaches",
+      "kind": "reach",
+      "at": [
+        633,
+        142
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Vents of Hythrak",
+      "kind": "region",
+      "at": [
+        438,
+        176
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Istar Jungle",
+      "kind": "forest",
+      "at": [
+        430,
+        185
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Fissure of Echos",
+      "at": [
+        557,
+        197
+      ],
+      "size": [
+        22,
+        2
+      ]
+    },
+    {
+      "text": "Karbaz",
+      "at": [
+        69,
+        202
+      ],
+      "size": [
+        10,
+        3
+      ]
+    },
+    {
+      "text": "Valho",
+      "at": [
+        641,
+        212
+      ],
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "text": "Snake's Elbow",
+      "kind": "region",
+      "angle": 37,
+      "at": [
+        400,
+        215
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Valho Coast",
+      "kind": "region",
+      "angle": 75,
+      "at": [
+        633,
+        232
+      ],
+      "size": [
+        11,
+        1
+      ]
+    },
+    {
+      "text": "Teeth of Borak",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        209,
+        234
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "The Tundra",
+      "kind": "region",
+      "at": [
+        330,
+        236
+      ],
+      "size": [
+        11,
+        1
+      ]
+    },
+    {
+      "text": "Eirenwaar",
+      "at": [
+        228,
+        254
+      ],
+      "size": [
+        15,
+        2
+      ]
+    },
+    {
+      "text": "Tenwat",
+      "at": [
+        548,
+        275
+      ],
+      "size": [
+        10,
+        3
+      ]
+    },
+    {
+      "text": "Minos",
+      "at": [
+        607,
+        302
+      ],
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "text": "Bay of Dardanos",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        558,
+        336
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Ishana Steppes",
+      "kind": "region",
+      "angle": -30,
+      "at": [
+        278,
+        340
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Ishana Peninsula",
+      "kind": "region",
+      "angle": 43,
+      "at": [
+        219,
+        347
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Umbrin",
+      "at": [
+        691,
+        354
+      ],
+      "size": [
+        11,
+        2
+      ]
+    },
+    {
+      "text": "Lothos",
+      "at": [
+        610,
+        361
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "text": "Phereklos",
+      "at": [
+        381,
+        367
+      ],
+      "size": [
+        13,
+        2
+      ]
+    },
+    {
+      "text": "Northreach Forest",
+      "kind": "forest",
+      "at": [
+        441,
+        374
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Lothian Reaches",
+      "kind": "reach",
+      "at": [
+        662,
+        374
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Colchis",
+      "at": [
+        693,
+        392
+      ],
+      "size": [
+        10,
+        3
+      ]
+    },
+    {
+      "text": "Northreach",
+      "at": [
+        402,
+        423
+      ],
+      "size": [
+        18,
+        2
+      ]
+    },
+    {
+      "text": "Breathless Bay",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        160,
+        424
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Dardanic Grasslands",
+      "kind": "region",
+      "at": [
+        495,
+        439
+      ],
+      "size": [
+        19,
+        1
+      ]
+    },
+    {
+      "text": "Rheodad",
+      "at": [
+        237,
+        441
+      ],
+      "size": [
+        13,
+        2
+      ]
+    },
+    {
+      "text": "Cnidian Gates",
+      "kind": "reach",
+      "at": [
+        700,
+        445
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Sapphire Sea",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        310,
+        473
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Granite Hills",
+      "kind": "region",
+      "angle": -15,
+      "at": [
+        511,
+        487
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Eusian Ocean",
+      "kind": "ocean",
+      "at": [
+        872,
+        496
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Tasur'ke",
+      "at": [
+        670,
+        502
+      ],
+      "size": [
+        12,
+        2
+      ]
+    },
+    {
+      "text": "Northern Plains",
+      "kind": "region",
+      "angle": -14,
+      "at": [
+        591,
+        510
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Ashtan",
+      "at": [
+        372,
+        525
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "text": "Hashan",
+      "at": [
+        640,
+        540
+      ],
+      "size": [
+        11,
+        3
+      ]
+    },
+    {
+      "text": "Scyrian Reaches",
+      "kind": "reach",
+      "wrap": true,
+      "at": [
+        960,
+        545
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Northern Ithmia",
+      "kind": "forest",
+      "at": [
+        635,
+        551
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Minia",
+      "kind": "region",
+      "at": [
+        483,
+        552
+      ],
+      "size": [
+        5,
+        1
+      ]
+    },
+    {
+      "text": "New Thera",
+      "at": [
+        379,
+        563
+      ],
+      "size": [
+        15,
+        2
+      ]
+    },
+    {
+      "text": "Claw Cove",
+      "importOnly": true,
+      "at": [
+        211,
+        565
+      ],
+      "size": [
+        15,
+        2
+      ]
+    },
+    {
+      "text": "Western Ithmia",
+      "kind": "forest",
+      "at": [
+        556,
+        568
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Black Forest",
+      "kind": "forest",
+      "at": [
+        392,
+        579
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Aureliana Forest",
+      "kind": "forest",
+      "at": [
+        449,
+        582
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Eastern Ithmia",
+      "kind": "forest",
+      "at": [
+        639,
+        593
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Ship Arena Island",
+      "at": [
+        747,
+        597
+      ],
+      "size": [
+        25,
+        2
+      ]
+    },
+    {
+      "text": "Harae",
+      "at": [
+        280,
+        614
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "text": "Riparian Reaches",
+      "kind": "reach",
+      "at": [
+        771,
+        614
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Riparium",
+      "at": [
+        708,
+        619
+      ],
+      "size": [
+        20,
+        3
+      ]
+    },
+    {
+      "text": "Sefyric Ocean",
+      "kind": "ocean",
+      "at": [
+        103,
+        624
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Delos",
+      "at": [
+        612,
+        625
+      ],
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "text": "Clockwork",
+      "at": [
+        882,
+        627
+      ],
+      "size": [
+        14,
+        2
+      ]
+    },
+    {
+      "text": "The Savannah",
+      "kind": "region",
+      "angle": 42,
+      "at": [
+        489,
+        648
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Thraasi",
+      "at": [
+        329,
+        652
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "text": "Eastern Reaches",
+      "kind": "region",
+      "at": [
+        663,
+        656
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Ageiro",
+      "at": [
+        144,
+        660
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "text": "Ulangi",
+      "at": [
+        761,
+        689
+      ],
+      "size": [
+        10,
+        3
+      ]
+    },
+    {
+      "text": "Vashnar Mountains",
+      "kind": "region",
+      "angle": 50,
+      "at": [
+        435,
+        700
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Aalen Forest",
+      "kind": "forest",
+      "at": [
+        387,
+        702
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Sea of Terror",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        267,
+        707
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Shastaan",
+      "at": [
+        686,
+        714
+      ],
+      "size": [
+        13,
+        2
+      ]
+    },
+    {
+      "text": "Shamtota Hills",
+      "kind": "region",
+      "wrap": true,
+      "at": [
+        583,
+        714
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Mhojave Desert",
+      "kind": "region",
+      "at": [
+        533,
+        725
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Mysia",
+      "at": [
+        811,
+        726
+      ],
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "text": "Bash Valley",
+      "kind": "region",
+      "at": [
+        622,
+        739
+      ],
+      "size": [
+        11,
+        1
+      ]
+    },
+    {
+      "text": "Targossas",
+      "at": [
+        659,
+        762
+      ],
+      "size": [
+        12,
+        2
+      ]
+    },
+    {
+      "text": "Lemnian Sea",
+      "kind": "sea",
+      "at": [
+        742,
+        765
+      ],
+      "size": [
+        11,
+        1
+      ]
+    },
+    {
+      "text": "Tuar",
+      "at": [
+        163,
+        770
+      ],
+      "size": [
+        7,
+        2
+      ]
+    },
+    {
+      "text": "Aalen",
+      "at": [
+        396,
+        771
+      ],
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "text": "Polyargos",
+      "at": [
+        298,
+        786
+      ],
+      "size": [
+        13,
+        2
+      ]
+    },
+    {
+      "text": "Cyrene",
+      "at": [
+        426,
+        787
+      ],
+      "size": [
+        10,
+        2
+      ]
+    },
+    {
+      "text": "Zanzibaar",
+      "at": [
+        799,
+        800
+      ],
+      "size": [
+        15,
+        2
+      ]
+    },
+    {
+      "text": "New Hope",
+      "at": [
+        618,
+        819
+      ],
+      "size": [
+        12,
+        2
+      ]
+    },
+    {
+      "text": "Sea Lion",
+      "at": [
+        509,
+        840
+      ],
+      "size": [
+        12,
+        2
+      ]
+    },
+    {
+      "text": "Shala-Khula",
+      "at": [
+        339,
+        841
+      ],
+      "size": [
+        17,
+        2
+      ]
+    },
+    {
+      "text": "Phocian Reaches",
+      "kind": "reach",
+      "at": [
+        899,
+        849
+      ],
+      "size": [
+        15,
+        1
+      ]
+    },
+    {
+      "text": "Nocturne's Reach",
+      "kind": "reach",
+      "wrap": true,
+      "at": [
+        242,
+        865
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Sea of Screamed Prayers",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        414,
+        890
+      ],
+      "size": [
+        23,
+        1
+      ]
+    },
+    {
+      "text": "Tapoa",
+      "at": [
+        158,
+        904
+      ],
+      "size": [
+        9,
+        2
+      ]
+    },
+    {
+      "text": "Zaphar",
+      "at": [
+        709,
+        939
+      ],
+      "size": [
+        11,
+        3
+      ]
+    },
+    {
+      "text": "Notic Ocean",
+      "kind": "ocean",
+      "at": [
+        489,
+        981
+      ],
+      "size": [
+        11,
+        1
+      ]
+    },
+    {
+      "text": "Tears of Sarapis",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        484,
+        1041
+      ],
+      "size": [
+        17,
+        1
+      ]
+    },
+    {
+      "text": "Prin",
+      "at": [
+        672,
+        1131
+      ],
+      "size": [
+        7,
+        2
+      ]
+    },
+    {
+      "text": "Gulf of Nilakantha",
+      "kind": "sea",
+      "wrap": true,
+      "at": [
+        604,
+        1196
+      ],
+      "size": [
+        19,
+        1
+      ]
+    },
+    {
+      "text": "Orilla",
+      "at": [
+        610,
+        1257
+      ],
+      "size": [
+        8,
+        2
+      ]
+    },
+    {
+      "text": "Daoric Plains",
+      "kind": "region",
+      "at": [
+        615,
+        1285
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Grukai Swamp",
+      "kind": "region",
+      "wrap": true,
+      "at": [
+        450,
+        1322
+      ],
+      "size": [
+        13,
+        1
+      ]
+    },
+    {
+      "text": "Atrousian Jungle",
+      "kind": "forest",
+      "angle": 44,
+      "at": [
+        439,
+        1420
+      ],
+      "size": [
+        17,
+        1
+      ]
+    }
+  ]
+}
